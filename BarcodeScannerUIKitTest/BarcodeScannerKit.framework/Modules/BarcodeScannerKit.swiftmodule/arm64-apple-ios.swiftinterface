@@ -1,0 +1,33 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios18.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name BarcodeScannerKit
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1
+import AVFoundation
+import DesignKit
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+
+@_Concurrency.MainActor @preconcurrency public struct BarcodeScannerView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var onCodeScanned: ((Swift.String) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(onCodeScanned: ((Swift.String) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17BarcodeScannerKit0aB4ViewV4bodyQrvp", 0) __
+}
+public protocol ScannerViewControllerDelegate : AnyObject {
+  func scannerViewController(_ controller: BarcodeScannerKit.ScannerViewController, didScanCode code: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ScannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any BarcodeScannerKit.ScannerViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension BarcodeScannerKit.BarcodeScannerView : Swift.Sendable {}

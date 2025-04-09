@@ -1,0 +1,933 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "BarcodeScannerKit",
+    "printedName": "BarcodeScannerKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DesignKit",
+        "printedName": "DesignKit",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeScannerView",
+        "printedName": "BarcodeScannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onCodeScanned",
+            "printedName": "onCodeScanned",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvp",
+            "mangledName": "$s17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvp",
+            "moduleName": "BarcodeScannerKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvg",
+                "mangledName": "$s17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvg",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvs",
+                "mangledName": "$s17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvs",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvM",
+                "mangledName": "$s17BarcodeScannerKit0aB4ViewV13onCodeScannedySScSgvM",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onCodeScanned:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BarcodeScannerView",
+                "printedName": "BarcodeScannerKit.BarcodeScannerView",
+                "usr": "s:17BarcodeScannerKit0aB4ViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BarcodeScannerKit0aB4ViewV13onCodeScannedACySScSg_tcfc",
+            "mangledName": "$s17BarcodeScannerKit0aB4ViewV13onCodeScannedACySScSg_tcfc",
+            "moduleName": "BarcodeScannerKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BarcodeScannerKit0aB4ViewV4bodyQrvp",
+            "mangledName": "$s17BarcodeScannerKit0aB4ViewV4bodyQrvp",
+            "moduleName": "BarcodeScannerKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0aB4ViewV4bodyQrvg",
+                "mangledName": "$s17BarcodeScannerKit0aB4ViewV4bodyQrvg",
+                "moduleName": "BarcodeScannerKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17BarcodeScannerKit0aB4ViewV",
+        "mangledName": "$s17BarcodeScannerKit0aB4ViewV",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "BarcodeScannerKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScannerViewControllerDelegate",
+        "printedName": "ScannerViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "scannerViewController",
+            "printedName": "scannerViewController(_:didScanCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerViewController",
+                "printedName": "BarcodeScannerKit.ScannerViewController",
+                "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BarcodeScannerKit0B22ViewControllerDelegateP07scannerdE0_11didScanCodeyAA0bdE0C_SStF",
+            "mangledName": "$s17BarcodeScannerKit0B22ViewControllerDelegateP07scannerdE0_11didScanCodeyAA0bdE0C_SStF",
+            "moduleName": "BarcodeScannerKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : BarcodeScannerKit.ScannerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : BarcodeScannerKit.ScannerViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17BarcodeScannerKit0B22ViewControllerDelegateP",
+        "mangledName": "$s17BarcodeScannerKit0B22ViewControllerDelegateP",
+        "moduleName": "BarcodeScannerKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScannerViewController",
+        "printedName": "ScannerViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any BarcodeScannerKit.ScannerViewControllerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvp",
+            "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvp",
+            "moduleName": "BarcodeScannerKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BarcodeScannerKit.ScannerViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerViewControllerDelegate",
+                        "printedName": "any BarcodeScannerKit.ScannerViewControllerDelegate",
+                        "usr": "s:17BarcodeScannerKit0B22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvg",
+                "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvg",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any BarcodeScannerKit.ScannerViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerViewControllerDelegate",
+                        "printedName": "any BarcodeScannerKit.ScannerViewControllerDelegate",
+                        "usr": "s:17BarcodeScannerKit0B22ViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvs",
+                "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvs",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvM",
+                "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC8delegateAA0bdE8Delegate_pSgvM",
+                "moduleName": "BarcodeScannerKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController(im)viewDidLoad",
+            "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "BarcodeScannerKit",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerViewController",
+                "printedName": "BarcodeScannerKit.ScannerViewController",
+                "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "BarcodeScannerKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BarcodeScannerKit.ScannerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScannerViewController",
+                    "printedName": "BarcodeScannerKit.ScannerViewController",
+                    "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController(im)initWithCoder:",
+            "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "BarcodeScannerKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BarcodeScannerKit@objc(cs)ScannerViewController",
+        "mangledName": "$s17BarcodeScannerKit0B14ViewControllerC",
+        "moduleName": "BarcodeScannerKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 7,
+      "value": "\"12345\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerView.swift",
+      "kind": "StringLiteral",
+      "offset": 1806,
+      "length": 48,
+      "value": "\"This device does not support barcode scanning.\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 48,
+      "value": "\"This device does not support barcode scanning.\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 479,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 559,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 23,
+      "value": "\"Invalid scanned code.\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/Model\/BarcodeScannerViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 178,
+      "length": 42,
+      "value": "\"Something is wrong with the camera input\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 252,
+      "length": 38,
+      "value": "\"Some is wrong with the scanned value\""
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/extension\/ScannerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 631,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/renchiliu\/Project\/Github_repo\/SwiftUI\/Barcode Sanner\/Barcode Sanner\/View\/BarcodeScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 276,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
